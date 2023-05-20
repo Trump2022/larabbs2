@@ -58,3 +58,5 @@ Route::resource('users', 'UsersController', ['only' => ['show', 'update', 'edit'
 //Route::put('/users/{user}', 'UsersController@update')->name('users.update');
 
 
+
+Route::resource('topics', 'TopicsController', ['only' => ['index', 'show', 'create', 'store', 'update', 'edit', 'destroy']]);
